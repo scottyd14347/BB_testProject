@@ -21,3 +21,9 @@ i.e.
 */
 
 @use "uswds-core" as *;
+
+$font-stack: Myrid-Pro, sans-serif;
+
+body {
+   font: 100% $font-stack;
+}
