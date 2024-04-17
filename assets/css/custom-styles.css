@@ -14,6 +14,11 @@ p {
 }
 
 /*****HEADER*****/
+.usa-header--basic {
+    color: #1b1b1b;
+}
+
+.usa-header--basic .usa-nav__primary-item>.usa-current,
 .usa-header--basic .usa-nav__primary-item>.usa-current::after,
 .usa-search--small [type=submit] {
     background-color: #0050D8;
