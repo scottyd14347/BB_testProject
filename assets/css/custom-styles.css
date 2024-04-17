@@ -32,18 +32,6 @@ p {
     border-top: none;
 }
 
-#hero>section>.grid-container>.grid-row {
-    position: relative;
-}
-
-#hero-top-img {
-    width: 100%;
-}
-
-#hero-bottom-img {
-    width: 100%;
-}
-
 #hero-bottom-img {
     box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2);
 }
