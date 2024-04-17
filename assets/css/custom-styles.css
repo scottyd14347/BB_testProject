@@ -1,12 +1,56 @@
+/*****GENERIC*****/
 body,
 h1,
 h2,
 h3,
-p {
+p,
+header a,
+button span {
     font-family: 'Myriad Pro', sans-serif;
 }
 
+p {
+    line-height: 1.5;
+}
 
+/*****HEADER*****/
+
+
+/*****HERO*****/
+#hero {
+    border-top: none;
+}
+
+#hero-top-img {
+    border-radius: 10px;
+    width: 471px;
+}
+
+#hero_bottom_img {
+    border-radius: 10px;
+    width: 327px;
+}
+
+
+/*****FIRST SECTION: VISION*****/
+
+
+/*****SECOND SECTION: ASSISTIVE TECH CATALOG*****/
+
+
+/*****THIRD SECTION: FORM*****/
 #custom-form p {
     color: #fff;
+}
+
+#custom-form legend,
+.usa-label {
+    font-family: 'Myriad Pro', sans-serif;
+    color: #fff;
+}
+
+/*****FOOTER*****/
+.usa-footer__primary-link,
+.usa-footer__contact-info {
+    text-decoration: none;
 }
