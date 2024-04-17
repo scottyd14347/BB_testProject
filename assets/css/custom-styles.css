@@ -58,6 +58,7 @@ p {
     color: #fff;
 }
 
+#custom-form .usa-legend,
 #custom-form .usa-label {
     font-family: 'Myriad Pro', sans-serif;
     color: #fff;
@@ -71,4 +72,8 @@ p {
 .usa-footer__primary-link,
 .usa-footer__contact-info a {
     text-decoration: none;
+}
+
+body>footer>div.usa-footer__primary-section>div>div.mobile-lg\:grid-col-4>address>div>div:nth-child(2)>div>a {
+    color: -webkit-link;
 }
