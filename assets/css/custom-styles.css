@@ -32,8 +32,8 @@ p {
     width: 327px;
 }
 
-#hero-top-img,
-#hero-bottom-img {
+#hero-top-img img,
+#hero-bottom-img img {
     border-radius: 10px;
 }
 
