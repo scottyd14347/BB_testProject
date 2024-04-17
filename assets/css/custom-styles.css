@@ -136,7 +136,7 @@ body>footer>div.usa-footer__primary-section>div>div.mobile-lg\:grid-col-4>addres
 }
 
 /*****iPhone 14 Plus*****/
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
     #vision-section>.grid-container>.grid-row>.grid-col-9 {
         padding-top: 2rem;
     }
