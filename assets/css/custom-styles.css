@@ -37,26 +37,14 @@ p {
 }
 
 #hero-top-img {
-    max-width: 327px;
     width: 100%;
-    position: relative;
-    left: 0;
 }
 
 #hero-bottom-img {
-    max-width: 327px;
     width: 100%;
-    position: absolute;
-    bottom: -70px;
-    left: 60px;
 }
 
-#hero-top-img img,
-#hero-bottom-img img {
-    border-radius: 10px;
-}
-
-#hero-bottom-img img {
+#hero-bottom-img {
     box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
