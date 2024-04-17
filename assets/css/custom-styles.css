@@ -32,11 +32,25 @@ p {
     border-top: none;
 }
 
-#hero-bottom-img {
-    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2);
+#hero #hero-left {
+    position: relative;
 }
 
-#hero-right {
+#hero #hero-top-img {
+    border-radius: 10px;
+    width: 400px;
+}
+
+#hero #hero-bottom-img {
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 0;
+    width: 250px;
+    bottom: -70px;
+}
+
+#hero #hero-right {
     padding-left: 3rem;
 }
 
@@ -82,7 +96,42 @@ body>footer>div.usa-footer__primary-section>div>div.mobile-lg\:grid-col-4>addres
 /********************/
 
 /*****iPad Mini*****/
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    #hero>.grid-container>.grid-row>.grid-col-6 {
+        width: 100%;
+    }
+
+    #hero #hero-top-img {
+        width: 80%;
+    }
+
+    #hero #hero-bottom-img {
+        width: 55%;
+    }
+
+    #hero>section>.grid-container>.grid-row,
+    #tech-catalog-section>.grid-container>.grid-row {
+        flex-direction: column-reverse;
+    }
+
+    #hero #hero-right {
+        padding-left: .5rem;
+        padding-bottom: 2rem;
+    }
+
+    #vision-section>.grid-container>.grid-row>.grid-col-9 {
+        width: 100%;
+    }
+
+    #custom-form .grid-col-4 {
+        width: 100%;
+    }
+
+    #custom-form .usa-input,
+    #custom-form .usa-textarea {
+        max-width: unset;
+    }
+}
 
 /*****iPhone 14 Plus*****/
 @media only screen and (max-width: 390px) {}
