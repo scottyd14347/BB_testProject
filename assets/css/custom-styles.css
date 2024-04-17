@@ -97,7 +97,9 @@ body>footer>div.usa-footer__primary-section>div>div.mobile-lg\:grid-col-4>addres
 
 /*****iPad Mini*****/
 @media only screen and (max-width: 768px) {
-    #hero .grid-col-6 {
+
+    #hero .grid-col-6,
+    #tech-catalog-section .grid-col-6 {
         width: 100%;
     }
 
