@@ -25,13 +25,16 @@ p {
 }
 
 #hero-top-img {
-    border-radius: 10px;
     width: 471px;
 }
 
 #hero-bottom-img {
-    border-radius: 10px;
     width: 327px;
+}
+
+#hero-top-img,
+#hero-bottom-img {
+    border-radius: 10px;
 }
 
 #hero-right {
@@ -42,6 +45,10 @@ p {
 
 
 /*****SECOND SECTION: ASSISTIVE TECH CATALOG*****/
+#tech-catalog-section #section-img img {
+    border-radius: 10px;
+}
+
 #tech-catalog-section .usa-button {
     background-color: #0050D8;
 }
@@ -51,14 +58,17 @@ p {
     color: #fff;
 }
 
-#custom-form legend,
-.usa-label {
+#custom-form .usa-label {
     font-family: 'Myriad Pro', sans-serif;
     color: #fff;
 }
 
+#custom-form .usa-textarea {
+    height: 15rem;
+}
+
 /*****FOOTER*****/
 .usa-footer__primary-link,
-.usa-footer__contact-info {
+.usa-footer__contact-info a {
     text-decoration: none;
 }
