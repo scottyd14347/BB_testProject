@@ -37,16 +37,18 @@ p {
 }
 
 #hero-top-img {
-    height: 471px;
+    max-width: 327px;
+    width: 100%;
     position: relative;
-    left: -40px;
+    left: 0;
 }
 
 #hero-bottom-img {
-    width: 327px;
+    max-width: 327px;
+    width: 100%;
     position: absolute;
     bottom: -70px;
-    right: 0;
+    left: 60px;
 }
 
 #hero-top-img img,
@@ -98,3 +100,13 @@ p {
 body>footer>div.usa-footer__primary-section>div>div.mobile-lg\:grid-col-4>address>div>div:nth-child(2)>div>a {
     color: -webkit-link;
 }
+
+/********************/
+/*****RESPONSIVE*****/
+/********************/
+
+/*****iPad Mini*****/
+@media only screen and (max-width: 768px) {}
+
+/*****iPhone 14 Plus*****/
+@media only screen and (max-width: 390px) {}
