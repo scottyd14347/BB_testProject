@@ -14,7 +14,10 @@ p {
 }
 
 /*****HEADER*****/
-
+.usa-header--basic .usa-nav__primary-item>.usa-current::after,
+.usa-search--small [type=submit] {
+    background-color: #0050D8;
+}
 
 /*****HERO*****/
 #hero {
@@ -26,17 +29,22 @@ p {
     width: 471px;
 }
 
-#hero_bottom_img {
+#hero-bottom-img {
     border-radius: 10px;
     width: 327px;
 }
 
+#hero-right {
+    padding-left: 3rem;
+}
 
 /*****FIRST SECTION: VISION*****/
 
 
 /*****SECOND SECTION: ASSISTIVE TECH CATALOG*****/
-
+#tech-catalog-section .usa-button {
+    background-color: #0050D8;
+}
 
 /*****THIRD SECTION: FORM*****/
 #custom-form p {
