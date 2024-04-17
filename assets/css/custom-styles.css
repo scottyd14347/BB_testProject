@@ -24,17 +24,30 @@ p {
     border-top: none;
 }
 
+#hero>section>.grid-container>.grid-row {
+    position: relative;
+}
+
 #hero-top-img {
-    width: 471px;
+    height: 471px;
+    position: relative;
+    left: -40px;
 }
 
 #hero-bottom-img {
     width: 327px;
+    position: absolute;
+    bottom: -70px;
+    right: 0;
 }
 
 #hero-top-img img,
 #hero-bottom-img img {
     border-radius: 10px;
+}
+
+#hero-bottom-img img {
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 #hero-right {
